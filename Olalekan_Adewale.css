@@ -1,0 +1,18 @@
+body {
+background-color: blueviolet;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.res {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+.des {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
