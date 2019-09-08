@@ -63,27 +63,28 @@
 <body>
     <div class="container" align="center">
         <h2>Contact Form</h2>
-        <form action="" class="form">
+        <form action="mailto:appleobject@hotmail.com"  class="form" method="POST" enctype="text/plain">
       
                 <label for="input-name">Name : </label>
-                <input type="text" name="name" class="form-name" id="input-name" placeholder="Enter your name" required>
+                <input type="text" name="fname" class="form-name" id="input-name" placeholder="Enter your name" required>
                 <br>
                 <br>
                 <label for="input-mail">Email : </label>
-                <input type="email" name="email" class="form-mail" id="input-mail" placeholder="Enter your email" required>
+                <input type="email" name="femail" class="form-mail" id="input-mail" placeholder="Enter your email" required>
                 <br>
                 <br>
                 <label for="input-title">Title : </label>
-                <input type="text" name="title" class="form-title" id="input-title" placeholder="Enter a title" required>
+                <input type="text" name="ftitle" class="form-title" id="input-title" placeholder="Enter a title" required>
                 <br>
                 <br>
                 <label for="input-message">Message :</label>
-                <textarea name="message" id="input-message"  class="form-msg" placeholder="Enter your message" required style="height: 200px"></textarea>
+                <textarea name="ftxtarea" id="input-message"  class="form-msg" placeholder="Enter your message" required style="height: 200px"></textarea>
                 <br>
                 <br>
-                <button type="submit" class="submit-button" onclick="checkinput()">Submit</button>
+                <button type="submit" class="submit-button" name="submit" onclick="checkinput()">Submit</button>
             </form>
+            
       </div>
-      
 </body>
 </html>
+ 
